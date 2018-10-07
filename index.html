@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Amaan Abbasi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   </head>
 <body>
     
-    <section class="hero has-background-light is-fullheight">
+    <section class="hero has-background-light is-fullheight my-background-2 ">
         <!-- Hero head: will stick at the top -->
         <header class="hero-head">
           <div class="container">
@@ -18,7 +22,7 @@
                 <div class="navbar-brand is-flex">
                   <div class="navbar-start">
                     <a class="navbar-item" href="https://www.github.com/amaanabbasi">
-                      <img src="img/GitHub-Mark-32px.png"/>
+                      <img class ="my-image" src="img/GitHub-Mark-32px.png"/>
                     </a> 
                     <a class="navbar-item" href="https://www.linkedin.com/in/mohd-abbasi-22293813a/">
                       <img src="img/linkedin-logo.png"/>
@@ -35,9 +39,9 @@
         </header>
       
         <!-- Hero content: will be in the middle -->
-        <div class="hero-body my-background-2 ">
+        <div class="hero-body ">
           <div class="container has-text-centered">
-                <h1 class="title" style="font-size:3em;">
+                <h1 id="animated-title"class="title animated pulse" style="font-size:3em;">
                     Hi, I am Amaan.
                   </h1>
                   <h2 class="subtitle">
@@ -62,5 +66,16 @@
           </nav>
         </div>
     </section>
+    <script type="text/javascript">
+    // var animationName = "animated pulse"
+    // var animationend = "webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd"
+    // var animatedClass = ".title"
+    // $(animatedClass).mouseenter(function(event){
+    //     $(this).addClass(animationName);
+    // });
+    // $(animatedClass).on(animationend, function(event) {
+    //     $(this).removeClass(animationName);
+    // });
+    </script>
 </body>
 </html>
