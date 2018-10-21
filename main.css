@@ -29,10 +29,24 @@
         animation-duration: 2s;
         animation-delay: 2s;
         animation-iteration-count: infinite;
-
 }
 
-.title {
-    $title-color: 
-
+#animated-title{
+    color:rgba(255, 255, 255, 0.849);
+}
+.subtitle{
+    color:rgb(224, 244, 246);
+}
+#animated-title:hover{
+    color:rgb(209, 180, 18);
+    font-size:50px;
+}
+.subtitle:hover{
+    border:5px solid gold ;
+    background:rgb(39, 214, 176);
+    margin:auto;
+    display:inline;
+    box-shadow:2px 3px 4px white;
+    font: size 3.5vw;
+    font-family: cursive
 }
